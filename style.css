@@ -38,12 +38,13 @@ h1{
     color:burlywood;
 }
 #reset{
-    font-size:2rem;
+font-size:2rem;
 border-radius:10px;
 border:none;
 padding:10px;
 background-color:burlywood;
 color:rgb(169, 63, 33);
+margin-bottom: 4rem;
 }
 .new-game{
     font-size:2rem;
@@ -59,7 +60,7 @@ p{
     padding:10px 0 10px 0;
 }
 .meg-container{
-    height:100vmin;
+    height:100vh;
     align-items: center;
     display:flex;
     justify-content: center;
@@ -75,4 +76,18 @@ p{
 .change{
     background-color:brown ;
     color: white;
+}
+/* start media quary */
+@media(max-width:600px){
+p{
+    font-size:1.8rem ;
+    
+}
+.new-game{
+    font-size:1.8rem;
+
+}
+#reset{
+    font-size:1.8rem;
+}
 }
